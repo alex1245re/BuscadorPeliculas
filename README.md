@@ -1,6 +1,6 @@
 # 🎬 Buscador de Películas con OMDb API
 
-## ✨ Características
+## Características
 
 * **Búsqueda en tiempo real:** Conexión con la [OMDb API](http://www.omdbapi.com/) para obtener datos de películas y series.
 * **Gestión de Favoritos (Toggle):**
@@ -9,7 +9,7 @@
     * Indicadores visuales (SVG interactivos) para saber qué películas ya están guardadas.
 * **Persistencia de Datos:** Uso de `localStorage` para que tus favoritos no se pierdan al recargar la página.
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 * **HTML5:** Estructura semántica.
 * **CSS3:** Estilos personalizados, variables CSS y diseño responsivo.
@@ -18,3 +18,6 @@
     * Manipulación del DOM (`closest`, `delegación de eventos`).
     * Lógica de arrays (`map`, `filter`, `splice`, `includes`).
     * `LocalStorage` para persistencia.
+
+## Desplegar
+* **https://alex1245re.github.io/BuscadorPeliculas/**
