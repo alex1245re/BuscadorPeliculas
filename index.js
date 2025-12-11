@@ -62,7 +62,7 @@ function maquetarPeliculas(contenedor,peliculas){
 }
 
 function lanzaPeticionDetalle(id){
-  fetch(`http://www.omdbapi.com/?i=${id}&apikey=66157bb2`).then(response => response.json())
+  fetch(`https://www.omdbapi.com/?i=${id}&apikey=66157bb2`).then(response => response.json())
   .then(data => {
       let foto = document.createElement("img");
       foto.classList.add('fotoDetalle');
@@ -220,7 +220,7 @@ window.onload = () =>{
     }
 
     for(let idPeli of pelisFav){
-    fetch(`http://www.omdbapi.com/?i=${idPeli}&apikey=66157bb2`).then(response => response.json())
+    fetch(`https://www.omdbapi.com/?i=${idPeli}&apikey=66157bb2`).then(response => response.json())
     .then(data => {
         cont++;
         maquetarFav.push(data);
